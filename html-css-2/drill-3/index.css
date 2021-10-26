@@ -1,0 +1,48 @@
+header {
+  height: 10vh;
+  background-color: slategray;
+  display: flex;
+  align-items: center;
+}
+
+.blue_box {
+  width: 35px;
+  height: 35px;
+  background-color: blue;
+  margin-left: 1%;
+}
+
+#text-box {
+  width: 90%;
+  margin: 5% auto;
+}
+
+p {
+  text-align: justify;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.b-column {
+  background-color: blue;
+  height: 150px;
+}
+
+.t-column {
+  background-color: teal;
+  height: 150px;
+}
+
+.g-column {
+  background-color: green;
+  height: 150px;
+}
+
+.y-column {
+  background-color: yellow;
+  height: 150px;
+}

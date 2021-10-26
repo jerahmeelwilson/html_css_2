@@ -1,0 +1,24 @@
+header {
+  height: 10vh;
+  background-color: slategray;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 10%;
+  height: 100vh;
+  background-color: grey;
+}
+
+footer {
+  height: 10vh;
+  width: 80%;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 10%;
+}
